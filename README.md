@@ -24,17 +24,6 @@ ML: TF-IDF, Cosine Similarity
 
 Deployment-ready: Modular structure for Heroku / HuggingFace / Streamlit Cloud
 
-📂 Folder Structure
-bash
-Copy
-Edit
-resume-screening-bot/
-├── app.py                  # Streamlit frontend
-├── resume_parser.py        # Utility functions (NLP logic)
-├── job_description.txt     # Sample JD
-├── sample_resumes/         # Sample resume files
-├── requirements.txt        # Dependency list
-└── README.md
 
 ⚙️ How to Run the Project Locally
 
