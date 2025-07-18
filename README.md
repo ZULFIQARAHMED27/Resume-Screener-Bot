@@ -1,24 +1,61 @@
-# 🧠 Resume Screening Bot using NLP
+📄 Resume Screening Bot using NLP & Machine Learning
+A smart Resume Screening Bot that uses NLP and a machine learning model to automatically parse resumes, extract relevant skills, and match candidates to a given job description based on similarity scores.
 
-This project helps automate the process of screening resumes by comparing candidate skills to a given job description using NLP.
+✅ Built with Python, Scikit-learn, Streamlit, and NLP libraries
+📥 Upload resumes (PDF, DOCX, or TXT) and get real-time compatibility scores.
 
-## 🚀 Features
-- Upload PDF resumes
-- Enter job description
-- NLP-based keyword matching
-- Match score shown instantly
-- Built with Streamlit
+🚀 Features
+📄 Parse resumes in .pdf, .docx, and .txt formats
 
-## 🛠️ Tech Stack
-- Python
-- Streamlit
-- docx2txt / PyPDF2
-- scikit-learn / NLP
+🧠 Extract skills and keywords using NLP (e.g., spaCy, docx2txt)
 
-## 💡 Use Case
-Used by recruiters to shortlist candidates faster by matching relevant skills to job requirements.
+🎯 Compare with job description using cosine similarity
 
-## 📂 How to Run
-```bash
+📊 Show candidate match score with explanation
+
+🌐 Easy-to-use Streamlit web app interface
+
+🛠️ Tech Stack
+Frontend: Streamlit
+
+Backend: Python, NLP (spaCy, PyPDF2, docx2txt)
+
+ML: TF-IDF, Cosine Similarity
+
+Deployment-ready: Modular structure for Heroku / HuggingFace / Streamlit Cloud
+
+📂 Folder Structure
+bash
+Copy
+Edit
+resume-screening-bot/
+├── app.py                  # Streamlit frontend
+├── resume_parser.py        # Utility functions (NLP logic)
+├── job_description.txt     # Sample JD
+├── sample_resumes/         # Sample resume files
+├── requirements.txt        # Dependency list
+└── README.md
+
+⚙️ How to Run the Project Locally
+
+1. Clone this repository
+   
+git clone https://github.com/ZULFIQARAHMED27/Resume-Screener-Bot.git
+cd Resume-Screener-Bot
+
+2. Create and activate a virtual environment
+
+python -m venv venv
+.\venv\Scripts\activate   # On Windows
+
+3. Install dependencies
+   
 pip install -r requirements.txt
+
+4. Run the app
+
 streamlit run app.py
+
+5. Upload your resume and paste the job description to see your matching score.
+
+
