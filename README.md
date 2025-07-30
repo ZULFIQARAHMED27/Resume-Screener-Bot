@@ -47,4 +47,16 @@ streamlit run app.py
 
 5. Upload your resume and paste the job description to see your matching score.
 
+## 📸 Screenshots
+
+### Home Page
+![Home Page](https://drive.google.com/uc?id=1THJEPgOSvNeJSsy2iHXScw5a7u8H1hZS)
+
+### Enter Job Description
+![Job Description](https://drive.google.com/uc?id=1KlQ5DZ5DdyLzJgNKG4UNJmrtnpwl5nJu)
+
+### Matching Results
+![Matching Results](https://drive.google.com/uc?id=1-dKgoOMl6WLq7kb69qx-q9jXTnAWXiun)
+
+
 
